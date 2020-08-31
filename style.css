@@ -1,0 +1,27 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body{
+  background: #141518;
+  color: #fff;
+  font-family: sans-serif;
+}
+h4{
+  width: 80%;
+  font-size: 1.3em;
+  word-break: break-all;
+}
+img{
+  height: 10em;
+  width: 10em;
+  margin: 5em 10em;
+}
+table, tr, th, td{
+  border: 1px solid grey;
+  border-collapse: collapse;
+  padding: 5px;
+  font-size: 1.2em;
+  margin-top: 1em;
+}

@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/Godstyme/amazon-price-tracker#readme",
   "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
     "nightmare": "^3.0.2"
   }
 }

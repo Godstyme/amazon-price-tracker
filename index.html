@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <center>
+      <div>
+        <img src="https://images-na.ssl-images-amazon.com/images/I/713fujBvS9L._AC_SL1500_.jpg" alt="Roam Universal Premium Bike Phone Mount for Motorcycle">
+        <h4 id="hell">
+          Roam Universal Premium Bike Phone Mount for Motorcycle - Bike Handlebars, 
+          Adjustable, Fits iPhone 11, X, XR, 8 | 8 Plus, 7 | 7 Plus, 6s Plus | Galaxy,
+        </h4>
+      </div>
+      <table>
+        <tr>
+          <th>Target Price</th>
+          <th>Current Price</th>
+        </tr>
+        <tr>
+          <td id="targetPrice">300</td>
+          <td id="currentPrice">Current Price</td>
+        </tr>
+      </table>
+    </center>
+  </main>
+  <script>
+    let target = document.getElementById('targetPrice').innerHTML = 80
+    localStorage.setItem('targetPrice', document.getElementById('targetPrice').value);
+  </script>
+  <script type="module"  type="text/javascript" src="price.js"></script>
+</body>
+</html>
