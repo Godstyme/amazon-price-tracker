@@ -30,8 +30,8 @@
   </main>
   <script type="module"  type="text/javascript" src="price.js"></script>
   <script>
-    let result = localStorage.getItem('priceNum')
-    alert(result)
+    let result = localStorage.getItem('currentPrice')
+    document.getElementById('currentPrice').value = result;
   </script>
 </body>
 </html>
