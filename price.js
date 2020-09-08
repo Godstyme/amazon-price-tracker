@@ -1,5 +1,5 @@
-const nightMare = require('nightmare')
-const cheerio = require('cheerio')
+import nightMare from 'nightmare'
+// const cheerio = require('cheerio')
 const nightmare = nightMare({ show: true })
 
 async function checkPrice () {
@@ -9,7 +9,7 @@ async function checkPrice () {
     .end()
   const priceNum = parseFloat(priceStr.replace('$', ''))
 
-  let targetPrice = 20
+  const targetPrice = 20
   console.log(priceNum)
   if (priceNum <= targetPrice) {
     console.log('It is cheap')
